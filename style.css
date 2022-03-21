@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap");
+
+body {
+  background: rgb(15, 7, 69);
+  background: linear-gradient(
+    38deg,
+    rgba(15, 7, 69, 1) 0%,
+    rgba(128, 3, 245, 1) 53%,
+    rgba(153, 210, 217, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #e9c9ff;
+  collor: #1c1c1c;
+  margin: 64px;
+  border-radius: 25px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24x;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 8px 16px;
+  background: #b5a4c0;
+  border: 2px solid #38005c;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: rgb(17, 17, 68);
+  background: linear-gradient(
+    322deg,
+    rgba(17, 17, 68, 1) 0%,
+    rgba(167, 61, 219, 1) 53%,
+    rgba(170, 204, 212, 1) 100%
+  );
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 28px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 44x;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: rgb(58, 57, 66);
+  background: linear-gradient(
+    38deg,
+    rgba(58, 57, 66, 1) 0%,
+    rgba(24, 6, 41, 1) 100%
+  );
+}
+
+.dark .container {
+  background: #3d3742;
+  color: #f4e8ff;
+}
+
+.dark .projetos {
+  background: rgb(102, 104, 106);
+  background: linear-gradient(
+    143deg,
+    rgba(102, 104, 106, 1) 0%,
+    rgba(81, 24, 145, 1) 50%,
+    rgba(9, 0, 43, 1) 100%
+  );
+}
+
+.dark .tema button {
+  background: #24172f;
+  color: #f4e8ff;
+  border: 2px solid #675875;
+}
